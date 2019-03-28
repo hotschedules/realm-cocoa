@@ -2699,6 +2699,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2711,6 +2712,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -2719,6 +2721,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D660FBD1BE98BEF0021E04F /* RealmSwift.xcconfig */;
 			buildSettings = {
+				MACH_O_TYPE = staticlib;
 			};
 			name = Debug;
 		};
@@ -2726,6 +2729,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D660FBD1BE98BEF0021E04F /* RealmSwift.xcconfig */;
 			buildSettings = {
+				MACH_O_TYPE = staticlib;
 			};
 			name = Release;
 		};
